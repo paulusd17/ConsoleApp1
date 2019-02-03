@@ -7,6 +7,9 @@ namespace UnitTestProject1
     [TestClass]
     public class IndexTest
     {
+        /// <summary>
+        /// This will run through the whole program and utilizing the supplied test data
+        /// </summary>
         [TestMethod]
         public void TestIndexNoError()
         {
@@ -14,6 +17,9 @@ namespace UnitTestProject1
             ConsoleApp1.Program.Main(new string[] { testPath });
         }
 
+        /// <summary>
+        /// This will op the char report and ensure that the correct char count and items exist
+        /// </summary>
         [TestMethod]
         public void TestIndexCharReport()
         {
@@ -44,6 +50,9 @@ namespace UnitTestProject1
             }
         }
 
+        /// <summary>
+        /// This will op the uni-gram report and ensure that the correct char count and items exist
+        /// </summary>
         [TestMethod]
         public void TestIndexUniReport()
         {
@@ -74,6 +83,9 @@ namespace UnitTestProject1
             }
         }
 
+        /// <summary>
+        /// This will op the bi-gram report and ensure that the correct char count and items exist
+        /// </summary>
         [TestMethod]
         public void TestIndexBiReport()
         {
@@ -104,6 +116,9 @@ namespace UnitTestProject1
             }
         }
 
+        /// <summary>
+        /// This will op the tri-gram report and ensure that the correct char count and items exist
+        /// </summary>
         [TestMethod]
         public void TestIndexTriReport()
         {
